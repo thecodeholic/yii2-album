@@ -1,0 +1,19 @@
+{
+  "name": "arboshiki/album",
+  "description": "Create, update, delete albums for logged in users. Upload, edit, delete Images inside your albums. Add captions to your albums and images.",
+  "authors": [
+    {
+      "name": "Zura Sekhniashvili",
+      "email": "zurasekhniashvili@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "arboshiki\\album\\": ""
+    }
+  }
+}
